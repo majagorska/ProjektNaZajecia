@@ -1,0 +1,62 @@
+div.wszystkie_przepisy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.kontakt_jeden {
+    width: 48%;
+}
+
+div.jeden_przepis img {
+    height: 220px;
+    object-fit: cover;
+}
+
+div.sekcja_komentarzy {
+    display: flex;
+    max-width: 730px;
+    gap: 30px;
+    text-align: right;
+}
+
+div.jeden_komentarz {
+    width: 30%;
+    max-width: 730px;
+}
+
+div.kontakty_all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 730px;
+    text-align: center;
+    width: 730px;
+}
+
+div.kontakt_jeden {
+    width: 200px;
+    padding: 10px;
+}
+
+section.mapa iframe {
+    max-width: 730px;
+}
+
+div.newsletter_box {
+    max-width: 730px;
+    width: 100%;
+}
+
+section.newsletter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.Zobacz_komentarze {
+    max-width: 730px;
+}
